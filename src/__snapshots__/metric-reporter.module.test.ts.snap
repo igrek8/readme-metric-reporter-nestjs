@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetricReporterModule tracks a request 1`] = `
+{
+  "_id": "1",
+  "clientIPAddress": "::ffff:127.0.0.1",
+  "group": {
+    "id": "::ffff:127.0.0.1",
+  },
+  "request": {
+    "log": {
+      "creator": {
+        "comment": "darwin/10.0.0",
+        "name": "readme-metric-reporter-express",
+        "version": "0.0.2",
+      },
+      "entries": [
+        {
+          "pageref": "http://127.0.0.1:50000/404",
+          "request": {
+            "headers": [
+              {
+                "name": "host",
+                "value": "127.0.0.1:50000",
+              },
+              {
+                "name": "accept-encoding",
+                "value": "gzip, deflate",
+              },
+              {
+                "name": "content-type",
+                "value": "application/json",
+              },
+              {
+                "name": "content-length",
+                "value": "15",
+              },
+              {
+                "name": "connection",
+                "value": "close",
+              },
+            ],
+            "httpVersion": "HTTP/1.1",
+            "method": "POST",
+            "postData": {
+              "mimeType": "application/json",
+              "text": "{"ping":"text"}",
+            },
+            "queryString": [],
+            "url": "http://127.0.0.1:50000/404",
+          },
+          "response": {
+            "content": {
+              "mimeType": "application/json",
+              "size": 281,
+              "text": "{"statusCode":404,"message":"Cannot POST /404","error":"Not Found"}",
+            },
+            "headers": [
+              {
+                "name": "x-powered-by",
+                "value": "Express",
+              },
+              {
+                "name": "content-type",
+                "value": "application/json; charset=utf-8",
+              },
+              {
+                "name": "content-length",
+                "value": "67",
+              },
+              {
+                "name": "etag",
+                "value": "W/"43-Rfemzan0q/U/9Rghim8W1DwIzRA"",
+              },
+            ],
+            "status": 404,
+            "statusText": "Not Found",
+          },
+          "startedDateTime": "2022-01-01T00:00:00.000Z",
+          "time": 0,
+        },
+      ],
+    },
+  },
+}
+`;
