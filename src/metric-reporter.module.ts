@@ -17,6 +17,8 @@ export class MetricReporterModule extends ConfigurableModuleClass implements OnM
   }
 
   configure(consumer: MiddlewareConsumer) {
-    this.options.configure(consumer.apply(MetricReporterMiddleware));
+    const config = consumer.apply(MetricReporterMiddleware);
+    if (this.options.excludedRoutes) config.exclude(...this.options.excludedRoutes);
+    config.forRoutes(...this.options.routes);
   }
 }

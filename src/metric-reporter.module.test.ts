@@ -22,7 +22,8 @@ describe('MetricReporterModule', () => {
         MetricReporterModule.register({
           reporter: new MetricReporter('apiKey'),
           collector: { collect: (_req, _res, metric) => ({ ...metric, _id: '1' }) },
-          configure: (middleware) => middleware.forRoutes('*'),
+          routes: ['*'],
+          excludedRoutes: ['/health'],
         }),
       ],
     }).compile();
