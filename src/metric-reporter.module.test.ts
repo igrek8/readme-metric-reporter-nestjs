@@ -1,7 +1,7 @@
 import { INestApplication } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
 import { MetricReporter } from 'readme-metric-reporter';
-import request from 'supertest';
+import * as request from 'supertest';
 import { MetricReporterModule } from './metric-reporter.module';
 
 jest.mock('os', () => ({

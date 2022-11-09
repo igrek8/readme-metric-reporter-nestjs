@@ -3,7 +3,7 @@
 Collect and publish Nest.js API usage metrics to README.io
 
 [![NPM](https://badgen.net/npm/v/readme-metric-reporter-nestjs)](https://www.npmjs.com/readme-metric-reporter-nestjs)
-[![Coverage Status](https://coveralls.io/repos/github/igrek8/readme-metric-reporter-nestjs/badge.svg?branch=main)](https://coveralls.io/github/igrek8/readme-metric-reporter-nestjs?branch=main)
+[![Coverage](https://codecov.io/gh/igrek8/readme-metric-reporter-nestjs/branch/main/graph/badge.svg)](https://codecov.io/gh/igrek8/readme-metric-reporter-nestjs)
 ![Release](https://badgen.net/github/checks/igrek8/readme-metric-reporter-nestjs)
 ![License](https://badgen.net/github/license/igrek8/readme-metric-reporter-nestjs)
 
@@ -19,7 +19,7 @@ yarn add readme-metric-reporter-nestjs
 
 <details>
   <summary>Review a request metric</summary>
-  <img alt="dashboard" src="./docs/images/readme-view-api-log.png" />
+  <img alt="dashboard" src="./media/readme-view-api-log.png" />
 </details>
 
 ## Integration
