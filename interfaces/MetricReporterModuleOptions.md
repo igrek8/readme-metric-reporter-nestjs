@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/c87535c/src/metrics-reporter.module-options.ts#L7)
+[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L7)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/c87535c/src/metrics-reporter.module-options.ts#L9)
+[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L9)
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:6](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/c87535c/src/metrics-reporter.module-options.ts#L6)
+[src/metrics-reporter.module-options.ts:6](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L6)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/c87535c/src/metrics-reporter.module-options.ts#L8)
+[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L8)
