@@ -6,12 +6,27 @@
 
 ### Properties
 
+- [baseUrl](MetricReporterModuleOptions.md#baseurl)
 - [collector](MetricReporterModuleOptions.md#collector)
 - [excludedRoutes](MetricReporterModuleOptions.md#excludedroutes)
 - [reporter](MetricReporterModuleOptions.md#reporter)
 - [routes](MetricReporterModuleOptions.md#routes)
 
+### Methods
+
+- [createUUID](MetricReporterModuleOptions.md#createuuid)
+
 ## Properties
+
+### baseUrl
+
+• `Optional` **baseUrl**: `string`
+
+#### Defined in
+
+[src/metrics-reporter.module-options.ts:11](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L11)
+
+___
 
 ### collector
 
@@ -19,7 +34,7 @@
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L7)
+[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L8)
 
 ___
 
@@ -29,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L9)
+[src/metrics-reporter.module-options.ts:10](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L10)
 
 ___
 
@@ -39,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:6](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L6)
+[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L7)
 
 ___
 
@@ -49,4 +64,25 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/8671f55/src/metrics-reporter.module-options.ts#L8)
+[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L9)
+
+## Methods
+
+### createUUID
+
+▸ `Optional` **createUUID**(`req`, `res`): `string`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
+| `res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+
+#### Returns
+
+`string`
+
+#### Defined in
+
+[src/metrics-reporter.module-options.ts:12](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L12)
