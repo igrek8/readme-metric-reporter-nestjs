@@ -9,6 +9,8 @@ export class MetricReporterMiddleware implements NestMiddleware {
 
   use(req: Request, res: Response, next: NextFunction) {
     return report({
+      baseUrl: this.options.baseUrl,
+      createUUID: this.options.createUUID,
       reporter: this.options.reporter,
       collector: this.options.collector,
     })(req, res, next);
