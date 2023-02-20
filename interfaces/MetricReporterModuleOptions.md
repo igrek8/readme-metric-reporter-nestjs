@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:11](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L11)
+[src/metrics-reporter.module-options.ts:11](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L11)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L8)
+[src/metrics-reporter.module-options.ts:8](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L8)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:10](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L10)
+[src/metrics-reporter.module-options.ts:10](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L10)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L7)
+[src/metrics-reporter.module-options.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L7)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L9)
+[src/metrics-reporter.module-options.ts:9](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L9)
 
 ## Methods
 
@@ -85,4 +85,4 @@ ___
 
 #### Defined in
 
-[src/metrics-reporter.module-options.ts:12](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/17ad7e5/src/metrics-reporter.module-options.ts#L12)
+[src/metrics-reporter.module-options.ts:12](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/4a4bf6e/src/metrics-reporter.module-options.ts#L12)
