@@ -21,7 +21,9 @@ describe('MetricReporterModule', () => {
       imports: [
         MetricReporterModule.register({
           reporter: new MetricReporter('apiKey'),
-          collector: { collect: (_req, _res, metric) => ({ ...metric, _id: '1' }) },
+          collector: {
+            collect: (_req, _res, metric) => ({ ...metric, _id: '1' }),
+          },
           routes: ['*'],
           excludedRoutes: ['/health'],
         }),

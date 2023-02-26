@@ -4,7 +4,10 @@ import { ConfigurableModuleClass, MODULE_OPTIONS_TOKEN, OPTIONS_TYPE } from './m
 
 @Module({})
 export class MetricReporterModule extends ConfigurableModuleClass implements OnModuleInit, OnModuleDestroy, NestModule {
-  constructor(@Inject(MODULE_OPTIONS_TOKEN) protected readonly options: typeof OPTIONS_TYPE) {
+  constructor(
+    @Inject(MODULE_OPTIONS_TOKEN)
+    protected readonly options: typeof OPTIONS_TYPE
+  ) {
     super();
   }
 

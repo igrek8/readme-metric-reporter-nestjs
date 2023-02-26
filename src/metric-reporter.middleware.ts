@@ -5,7 +5,10 @@ import { MODULE_OPTIONS_TOKEN, OPTIONS_TYPE } from './metric-reporter.module-def
 
 @Injectable()
 export class MetricReporterMiddleware implements NestMiddleware {
-  constructor(@Inject(MODULE_OPTIONS_TOKEN) protected readonly options: typeof OPTIONS_TYPE) {}
+  constructor(
+    @Inject(MODULE_OPTIONS_TOKEN)
+    protected readonly options: typeof OPTIONS_TYPE
+  ) {}
 
   use(req: Request, res: Response, next: NextFunction) {
     return report({
