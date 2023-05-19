@@ -84,6 +84,6 @@
     "supertest": "6.3.3",
     "readme-metric-reporter": "1.0.0",
     "readme-metric-reporter-express": "1.2.0",
-    "tslib": "2.5.1"
+    "tslib": "2.5.2"
   }
 }
