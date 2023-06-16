@@ -53,7 +53,7 @@ exports[`MetricReporterModule tracks a request 1`] = `
             "content": {
               "mimeType": "application/json",
               "size": 281,
-              "text": "{"statusCode":404,"message":"Cannot POST /404","error":"Not Found"}",
+              "text": "{"message":"Cannot POST /404","error":"Not Found","statusCode":404}",
             },
             "headers": [
               {
@@ -70,7 +70,7 @@ exports[`MetricReporterModule tracks a request 1`] = `
               },
               {
                 "name": "etag",
-                "value": "W/"43-Rfemzan0q/U/9Rghim8W1DwIzRA"",
+                "value": "W/"43-Y8qSII0to1ehIClOJselt6msThw"",
               },
             ],
             "status": 404,
