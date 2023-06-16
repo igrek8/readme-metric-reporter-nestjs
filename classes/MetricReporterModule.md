@@ -53,7 +53,7 @@ NestModule.configure
 
 #### Defined in
 
-[src/metric-reporter.module.ts:23](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/96fa129/src/metric-reporter.module.ts#L23)
+[src/metric-reporter.module.ts:23](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/5fdd8bf/src/metric-reporter.module.ts#L23)
 
 ___
 
@@ -71,7 +71,7 @@ OnModuleDestroy.onModuleDestroy
 
 #### Defined in
 
-[src/metric-reporter.module.ts:18](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/96fa129/src/metric-reporter.module.ts#L18)
+[src/metric-reporter.module.ts:18](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/5fdd8bf/src/metric-reporter.module.ts#L18)
 
 ___
 
@@ -89,7 +89,7 @@ OnModuleInit.onModuleInit
 
 #### Defined in
 
-[src/metric-reporter.module.ts:14](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/96fa129/src/metric-reporter.module.ts#L14)
+[src/metric-reporter.module.ts:14](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/5fdd8bf/src/metric-reporter.module.ts#L14)
 
 ## Constructors
 
@@ -109,7 +109,7 @@ ConfigurableModuleClass.constructor
 
 #### Defined in
 
-[src/metric-reporter.module.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/96fa129/src/metric-reporter.module.ts#L7)
+[src/metric-reporter.module.ts:7](https://github.com/igrek8/readme-metric-reporter-nestjs/blob/5fdd8bf/src/metric-reporter.module.ts#L7)
 
 ## Properties
 
