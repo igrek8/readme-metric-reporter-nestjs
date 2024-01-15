@@ -83,7 +83,7 @@
     "@types/node": "20.11.1",
     "@types/supertest": "6.0.2",
     "rimraf": "5.0.5",
-    "supertest": "6.3.3",
+    "supertest": "6.3.4",
     "readme-metric-reporter": "1.0.0",
     "readme-metric-reporter-express": "1.2.0",
     "tslib": "2.6.2"
